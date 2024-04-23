@@ -1,0 +1,35 @@
+.logodefault-item,
+.logosaas-icon1 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.logodefault-item {
+  height: 80.49%;
+  top: 14.63%;
+  bottom: 4.88%;
+  background: linear-gradient(
+    89.43deg,
+    #f87bff,
+    #fb92cf 24.06%,
+    #ffdd9b 48.2%,
+    #c2f0b1 72.84%,
+    #2fd8fe
+  );
+  filter: blur(11px);
+}
+.logosaas-icon1 {
+  height: 97.56%;
+  top: 0;
+  bottom: 2.44%;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logodefault1 {
+  width: 40px;
+  height: 41px;
+}

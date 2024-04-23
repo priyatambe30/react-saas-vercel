@@ -1,0 +1,75 @@
+.about {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 23px;
+  }
+  .stack3{
+    color: beige;
+  }
+  .get-for-free {
+    position: relative;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .buttons,
+  .property-1navdark,
+  .stack3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 0;
+    top: 5px;
+  }
+  .buttons {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    /* padding: var(--padding-3xs) var(--padding-mini); */
+    padding: 0 10px 5px 10px;
+    color: var(--color-black);
+  }
+  .property-1navdark,
+  .stack3 {
+    gap: var(--gap-5xl);
+  }
+  .property-1navdark {
+    width: 1200px;
+    /* width: 100%; */
+    top: 10px;
+    background-color: var(--color-gray-700);
+    backdrop-filter: blur(14px);
+    max-width: 100%;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+    gap: var(--gap-444xl);
+    text-align: left;
+    font-size: var(--body-bold-size);
+    color: var(--color-gray-600);
+    font-family: var(--body-bold);
+  }
+  
+  /* //////////////////////////////////////////////////////////////////// media query */
+  @media screen and (max-width: 1200) {
+    .property-1navdark ,.buttons,.stack3{
+      top: 10px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 810) {
+    .property-1navdark ,.buttons,.stack3{
+      top: 10px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 390) {
+    .property-1navdark ,.buttons,.stack3{
+      top: 10px;
+      display: block;
+    }
+    
+  }
